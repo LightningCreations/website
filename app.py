@@ -14,9 +14,22 @@ app.config['SECRET_KEY'] = data['secret_key']
 @app.route('/', methods=['GET'])
 @app.route('/home', methods=['GET'])
 def home():
-    return render_template('home.html')
+  return render_template('home.html')
+
+@app.route('/fotc', methods=['GET'])
+def fotc():
+  return render_template('fotc.html')
+
+@app.route('/compilers', methods=['GET'])
+def compilers():
+  return render_template('compilers.html')
+
+@app.route('/pipeworks', methods=['GET'])
+def pipeworks():
+  return render_template('pipeworks.html')
+
 
 
 # this is what allows you to run the app
 if __name__ == "__main__":
-    app.run(debug=True)
+  app.run(debug=True)

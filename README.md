@@ -9,7 +9,7 @@ Before contributing, there are a few prerequesites:
 1. Make sure you have a fairly up to date Python3 installation. 3.6+ is probably fine
 2. Make sure you have pip/pip3 installed
 3. Make sure you install the required pip packages:  
-```pip3 install flask flask-wtf flask-sqlalchemy```
+```pip3 install flask flask-wtf flask-sqlalchemy gunicorn flask-login```
 4. To run the app, `cd` into the directory and run the `app.py` file  
 ##### I recommend checking out [this tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA) before proceeding  
 
@@ -56,4 +56,4 @@ An example link to `about.html` using the route we just defined:
 
 ### Other Questions?
 I recommend first consulting [this tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA) before proceeding. It's only 47 minutes long and will clear up most, if not all of your doubts.
-Otherwise, feel free to ping myself or create an issue.
+Otherwise, feel free to create an issue. (And if you're a part of the Discord Server, ping the project lead)
