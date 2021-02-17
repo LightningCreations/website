@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+/*   margin: 0px; */
+/*   height: 100%; */
+  background-size: cover;
+  background: linear-gradient(to right, #202020 0%, #101010 50%, #202020 100%);
+  line-height: 1.5em;
+}
+
+h1 {
+  text-shadow: 0 0 7px #ffff00;
+}
+
+a {
+  color: #ffff00
+}
+
+button{
+  color: #ffff00;
+  background-color: #000000;
+  border-color: #ffff00;
+  border-style: solid;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+button:hover {
+  color: #ffffff;
+/*   background-color: #888800; */
+  border-color: #ffffff;  
+}
+.code{
+  font-family: monospace;
+  background-color: #00000044
+}
